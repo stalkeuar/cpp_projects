@@ -29,8 +29,10 @@ void eratosphen_resheto(int n) {
     delete[] eratosphen;
 }
 
-int main(){
+int main()
+{
     int n = 1000;
     eratosphen_resheto(n);
+ 
     return 0;
 }
